@@ -32,7 +32,7 @@ function App() {
       }}
     >
       <div
-        className=" w-[80%] md:h-72 h-52 bg-gradient-to-br from-cyan-400 via-pink-600 to-emerald-800 rounded-t-[280px] relative m-auto md:my-20 my-44 shadow-lg shadow-cyan-500/50  "
+        className=" w-[80%] md:w-[35%] md:h-72 h-52 bg-gradient-to-br from-cyan-400 via-pink-600 to-emerald-800 rounded-t-[280px] relative m-auto md:my-20 my-44 shadow-lg shadow-cyan-500/50  "
         style={{
           boxShadow: `
     0 -15px 25px rgba(0,198,255,0.2),
@@ -41,9 +41,9 @@ function App() {
   `,
         }}
       >
-        <div className=" flex justify-center items-end py-10 absolute inset-3 bg-[#090013]/90  rounded-t-full bottom-0 ">
+        <div className=" flex justify-center items-end md:py-10 py-8 absolute inset-3 bg-[#090013]/90  rounded-t-full bottom-0 ">
           <h1
-            className=" md:text-6xl text-3xl text-white font-bold slashed-zero  font-mono scale-y-125 md:tracking-wider  "
+            className=" md:text-6xl text-3xl text-white font-bold slashed-zero  font-mono scale-y-150 md:tracking-wider  "
             style={{
               textShadow: `
               0 0 5px #00c6ff`,
